@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m a Information Technology student passionate about building responsive, user-friendly websites. I enjoy using tools like GitHub Copilot to enhance my productivity and creativity.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project One</h3>
+      <p>A sample project that demonstrates responsive design and clean UI using Copilot.</p>
+    </div>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>A JavaScript-based application that includes hover effects, modals, and tooltips.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: ralphgianv@gamil.com</p>
+    <button id="openModal">Send Message</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal HTML -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Contact Me</h2>
+      <p>This is a Copilot-assisted modal window.</p>
+    </div>
+  </div>
+
+  <script src="modal.js"></script>
+</body>
+</html>
